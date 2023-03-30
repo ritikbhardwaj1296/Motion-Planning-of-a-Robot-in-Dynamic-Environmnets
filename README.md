@@ -1,1 +1,1 @@
-# Motion-Plannin-of-a-Robot-in-Dynamic-Environmnet
+# Motion-Planning-of-a-Robot-in-Dynamic-Environmnet
