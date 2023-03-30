@@ -1,0 +1,44 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5507874572934166 0.5626180235888796 0.6165177502888266 2.017567723214997
+  position -0.158666845094208 -0.6211755498022318 5.06261341210028
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 0 1 0 4.692820414042842e-06
+  floorSize 3 3
+}
+DEF obs1 Create {
+  translation -0.609522 -0.330213 0.044
+  rotation 0 0 1 -3.010695613280012
+  name "Create0"
+  supervisor TRUE
+}
+DEF obs2 Create {
+  translation 0.883184 -0.137149 0.044
+  name "Create1"
+  supervisor TRUE
+}
+Wall {
+  translation -0.0139521 -0.142863 -8.88178e-15
+  size 0.05 2.75 0.23
+}
+DEF Turtle TurtleBot3Burger {
+  translation -0.712652 -1.11819 0
+  rotation 0 0 1 1.5707996938995747
+  controller "my_controller"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+    RobotisLds01 {
+      translation 0 0 -0.08
+      rotation 0 0 1 3.14
+    }
+  ]
+}
